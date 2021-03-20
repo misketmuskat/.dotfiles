@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu>
+	<menu id="root-menu" label="OpenBox 3">
+		<item label="Terminal">
+			<action name="Execute">
+				<execute>kitty</execute>
+			</action>
+		</item>
+		<item label="Firefox">
+			<action name="Execute">
+				<execute>firefox-esr</execute>
+			</action>
+		</item>
+		<menu id="root-menu-274513" label="File Manager">
+			<item label="Desktop">
+				<action name="Execute">
+					<execute>thunar ~/Desktop</execute>
+				</action>
+			</item>
+			<item label="Documents">
+				<action name="Execute">
+					<execute>thunar ~/Documents</execute>
+				</action>
+			</item>
+			<item label="Downloads">
+				<action name="Execute">
+					<execute>thunar ~/Downloads</execute>
+				</action>
+			</item>
+			<item label="GitHub">
+				<action name="Execute">
+					<execute>thunar ~/GitHub</execute>
+				</action>
+			</item>
+			<item label="Music">
+				<action name="Execute">
+					<execute>thunar ~/Music</execute>
+				</action>
+			</item>
+			<item label="Pictures">
+				<action name="Execute">
+					<execute>thunar ~/Pictures</execute>
+				</action>
+			</item>
+			<item label="Public">
+				<action name="Execute">
+					<execute>thunar ~/Public</execute>
+				</action>
+			</item>
+			<item label="Videos">
+				<action name="Execute">
+					<execute>thunar ~/Videos</execute>
+				</action>
+			</item>
+		</menu>
+		<item label="LibreOffice">
+			<action name="Execute">
+				<execute>libreoffice</execute>
+			</action>
+		</item>
+		<item label="Tutanota">
+			<action name="Execute">
+				<execute>./.applications/tutanota.AppImage --no-sandbox</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="2" label="Editors">
+			<item label="Mousepad">
+				<action name="Execute">
+					<execute>mousepad</execute>
+				</action>
+			</item>
+			<item label="Nano">
+				<action name="Execute">
+					<execute>kitty -e nano</execute>
+				</action>
+			</item>
+			<item label="Micro">
+				<action name="Execute">
+					<execute>kitty -e micro</execute>
+				</action>
+			</item>
+			<item label="Vi">
+				<action name="Execute">
+					<execute>kitty -e vi</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="7" label="Multimedia">
+			<item label="Spotify">
+				<action name="Execute">
+					<execute>kitty -e ~/.applications/spt</execute>
+				</action>
+			</item>
+			<item label="mpv Media Player">
+				<action name="Execute">
+					<execute>mpv --player-operation-mode=pseudo-gui</execute>
+				</action>
+			</item>
+			<item label="VLC media player">
+				<action name="Execute">
+					<execute>vlc</execute>
+				</action>
+			</item>
+			<item label="cmus">
+				<action name="Execute">
+					<execute>kitty -e cmus</execute>
+				</action>
+			</item>
+			<item label="X ALSA mixer">
+				<action name="Execute">
+					<execute>alsamixergui</execute>
+				</action>
+			</item>
+			<item label="ALSA mixer">
+				<action name="Execute">
+					<execute>kitty -e alsamixer</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="3" label="Office">
+			<item label="calibre">
+				<action name="Execute">
+					<execute>env QT_STYLE_OVERRIDE='gtk' calibre</execute>
+				</action>
+			</item>
+			<item label="Document Viewer">
+				<action name="Execute">
+					<execute>evince</execute>
+				</action>
+			</item>
+			<item label="E-book Editor">
+				<action name="Execute">
+					<execute>ebook-edit</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Impress">
+				<action name="Execute">
+					<execute>libreoffice</execute>
+				</action>
+			</item>
+			<item label="Zathura">
+				<action name="Execute">
+					<execute>zathura</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="6" label="Graphics">
+			<item label="GNU Image Manipulation Program">
+				<action name="Execute">
+					<execute>gimp-2.10</execute>
+				</action>
+			</item>
+			<item label="E-book Viewer">
+				<action name="Execute">
+					<execute>ebook-viewer</execute>
+				</action>
+			</item>
+			<item label="Viewnior">
+				<action name="Execute">
+					<execute>viewnior</execute>
+				</action>
+			</item>
+			<item label="Font Manager">
+				<action name="Execute">
+					<execute>font-manager</execute>
+				</action>
+			</item>
+			<item label="Font Viewer">
+				<action name="Execute">
+					<execute>/usr/lib/x86_64-linux-gnu/font-manager/font-viewer</execute>
+				</action>
+			</item>
+			<item label="ImageMagick (color depth=q16)">
+				<action name="Execute">
+					<execute>display-im6.q16</execute>
+				</action>
+			</item>
+			<item label="LRF Viewer">
+				<action name="Execute">
+					<execute>lrfviewer</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="5" label="Network">
+			<item label="Firefox ESR">
+				<action name="Execute">
+					<execute>firefox-esr</execute>
+				</action>
+			</item>
+			<item label="Transmission">
+				<action name="Execute">
+					<execute>transmission-gtk</execute>
+				</action>
+			</item>
+			<item label="KDE Connect Indicator">
+				<action name="Execute">
+					<execute>kdeconnect-indicator</execute>
+				</action>
+			</item>
+			<item label="Mail Reader">
+				<action name="Execute">
+					<execute>exo-open --launch MailReader</execute>
+				</action>
+			</item>
+			<item label="NetworkManager">
+				<action name="Execute">
+					<execute>kitty -e nmtui</execute>
+				</action>
+			</item>
+			<item label="Mailnag Configuration">
+				<action name="Execute">
+					<execute>mailnag-config</execute>
+				</action>
+			</item>
+			<item label="Telnet">
+				<action name="Execute">
+					<execute>kitty -e telnet</execute>
+				</action>
+			</item>
+			<item label="W3m">
+				<action name="Execute">
+					<execute>kitty -e w3m</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="8" label="Education">
+			<item label="Artha">
+				<action name="Execute">
+					<execute>artha</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="18" label="Games">
+			<menu id="9" label="Adventure">
+				<item label="BSD-Games Adventure">
+					<action name="Execute">
+						<execute>kitty -e bsdgames-adventure</execute>
+					</action>
+				</item>
+				<item label="Hack">
+					<action name="Execute">
+						<execute>kitty -e hack</execute>
+					</action>
+				</item>
+				<item label="Hunt the Wumpus">
+					<action name="Execute">
+						<execute>kitty -e wump</execute>
+					</action>
+				</item>
+				<item label="Phantasia">
+					<action name="Execute">
+						<execute>kitty -e phantasia</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="17" label="Amusement">
+				<item label="Rain">
+					<action name="Execute">
+						<execute>kitty -e rain</execute>
+					</action>
+				</item>
+				<item label="Worms">
+					<action name="Execute">
+						<execute>kitty -e worms</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="11" label="Board">
+				<item label="Backgammon">
+					<action name="Execute">
+						<execute>kitty -e backgammon -pb</execute>
+					</action>
+				</item>
+				<item label="Gomoku">
+					<action name="Execute">
+						<execute>kitty -e gomoku</execute>
+					</action>
+				</item>
+				<item label="Monopoly">
+					<action name="Execute">
+						<execute>kitty -e monop</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="12" label="Card">
+				<item label="Canfield">
+					<action name="Execute">
+						<execute>kitty -e canfield</execute>
+					</action>
+				</item>
+				<item label="Cribbage">
+					<action name="Execute">
+						<execute>kitty -e cribbage</execute>
+					</action>
+				</item>
+				<item label="Mille Bornes">
+					<action name="Execute">
+						<execute>kitty -e mille</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="13" label="Puzzle">
+				<item label="Boggle">
+					<action name="Execute">
+						<execute>kitty -e boggle</execute>
+					</action>
+				</item>
+				<item label="Hangman">
+					<action name="Execute">
+						<execute>kitty -e hangman</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="16" label="Strategy">
+				<item label="Sail">
+					<action name="Execute">
+						<execute>kitty -e sail</execute>
+					</action>
+				</item>
+			</menu>
+			<item label="Dwarf Fortress">
+				<action name="Execute">
+					<execute>dwarf-fortress -X</execute>
+				</action>
+			</item>
+			<item label="Robots">
+				<action name="Execute">
+					<execute>kitty -e robots</execute>
+				</action>
+			</item>
+			<item label="Star Trek">
+				<action name="Execute">
+					<execute>kitty -e trek</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="1" label="Development">
+			<item label="OCaml">
+				<action name="Execute">
+					<execute>kitty -e ocaml</execute>
+				</action>
+			</item>
+			<item label="Tclsh8.6">
+				<action name="Execute">
+					<execute>kitty -e tclsh8.6</execute>
+				</action>
+			</item>
+			<item label="TkWish8.6">
+				<action name="Execute">
+					<execute>kitty -e /usr/bin/wish8.6</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="19" label="Shells">
+			<item label="Bash">
+				<action name="Execute">
+					<execute>kitty -e bash --login</execute>
+				</action>
+			</item>
+			<item label="Dash">
+				<action name="Execute">
+					<execute>kitty -e dash -i</execute>
+				</action>
+			</item>
+			<item label="fish">
+				<action name="Execute">
+					<execute>kitty -e fish</execute>
+				</action>
+			</item>
+			<item label="GIT">
+				<action name="Execute">
+					<execute>kitty -e git</execute>
+				</action>
+			</item>
+			<item label="kitty">
+				<action name="Execute">
+					<execute>kitty</execute>
+				</action>
+			</item>
+			<item label="ranger">
+				<action name="Execute">
+					<execute>kitty -e ranger</execute>
+				</action>
+			</item>
+			<item label="Sh">
+				<action name="Execute">
+					<execute>kitty -e sh --login</execute>
+				</action>
+			</item>
+			<item label="Thunar File Manager">
+				<action name="Execute">
+					<execute>thunar</execute>
+				</action>
+			</item>
+			<item label="UXTerm">
+				<action name="Execute">
+					<execute>uxterm</execute>
+				</action>
+			</item>
+			<item label="Xfce Terminal">
+				<action name="Execute">
+					<execute>xfce4-terminal</execute>
+				</action>
+			</item>
+			<item label="Xterm">
+				<action name="Execute">
+					<execute>xterm</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="37" label="System">
+			<menu id="36" label="Settings">
+				<menu id="21" label="GNOME">
+					<item label="LightDM GTK+ Greeter settings">
+						<action name="Execute">
+							<execute>lightdm-gtk-greeter-settings-pkexec</execute>
+						</action>
+					</item>
+				</menu>
+				<menu id="35" label="Xfce">
+					<item label="Settings Manager">
+						<action name="Execute">
+							<execute>xfce4-settings-manager</execute>
+						</action>
+					</item>
+				</menu>
+				<item label="Accessibility">
+					<action name="Execute">
+						<execute>xfce4-accessibility-settings</execute>
+					</action>
+				</item>
+				<item label="Appearance">
+					<action name="Execute">
+						<execute>xfce4-appearance-settings</execute>
+					</action>
+				</item>
+				<item label="Customize Look and Feel">
+					<action name="Execute">
+						<execute>lxappearance</execute>
+					</action>
+				</item>
+				<item label="Disk Manager">
+					<action name="Execute">
+						<execute>su-to-root -X -c /usr/sbin/disk-manager</execute>
+					</action>
+				</item>
+				<item label="Display">
+					<action name="Execute">
+						<execute>xfce4-display-settings</execute>
+					</action>
+				</item>
+				<item label="File Manager">
+					<action name="Execute">
+						<execute>thunar-settings</execute>
+					</action>
+				</item>
+				<item label="KDE Connect Settings">
+					<action name="Execute">
+						<execute>kcmshell5 kcm_kdeconnect</execute>
+					</action>
+				</item>
+				<item label="Keyboard">
+					<action name="Execute">
+						<execute>xfce4-keyboard-settings</execute>
+					</action>
+				</item>
+				<item label="MIME Type Editor">
+					<action name="Execute">
+						<execute>xfce4-mime-settings</execute>
+					</action>
+				</item>
+				<item label="Mouse and Touchpad">
+					<action name="Execute">
+						<execute>xfce4-mouse-settings</execute>
+					</action>
+				</item>
+				<item label="nitrogen">
+					<action name="Execute">
+						<execute>nitrogen</execute>
+					</action>
+				</item>
+				<item label="Openbox Configuration Manager">
+					<action name="Execute">
+						<execute>obconf</execute>
+					</action>
+				</item>
+				<item label="Power Manager">
+					<action name="Execute">
+						<execute>xfce4-power-manager-settings</execute>
+					</action>
+				</item>
+				<item label="Preferred Applications">
+					<action name="Execute">
+						<execute>exo-preferred-applications</execute>
+					</action>
+				</item>
+				<item label="Qt 4 Settings">
+					<action name="Execute">
+						<execute>qtconfig-qt4</execute>
+					</action>
+				</item>
+				<item label="Qt5 Settings">
+					<action name="Execute">
+						<execute>qt5ct</execute>
+					</action>
+				</item>
+				<item label="Removable Drives and Media">
+					<action name="Execute">
+						<execute>thunar-volman-settings</execute>
+					</action>
+				</item>
+				<item label="Settings Editor">
+					<action name="Execute">
+						<execute>xfce4-settings-editor</execute>
+					</action>
+				</item>
+				<item label="Tint2 Settings">
+					<action name="Execute">
+						<execute>tint2conf</execute>
+					</action>
+				</item>
+				<item label="Xfce Terminal">
+					<action name="Execute">
+						<execute>xfce4-terminal --preferences</execute>
+					</action>
+				</item>
+				<item label="Xfontsel">
+					<action name="Execute">
+						<execute>xfontsel</execute>
+					</action>
+				</item>
+				<item label="Xvidtune">
+					<action name="Execute">
+						<execute>xvidtune</execute>
+					</action>
+				</item>
+			</menu>
+			<item label="Bulk Rename">
+				<action name="Execute">
+					<execute>/usr/lib/x86_64-linux-gnu/Thunar/ThunarBulkRename</execute>
+				</action>
+			</item>
+			<item label="Debian Task selector">
+				<action name="Execute">
+					<execute>kitty -e su-to-root -c tasksel</execute>
+				</action>
+			</item>
+			<item label="Disk Manager">
+				<action name="Execute">
+					<execute>disk-manager</execute>
+				</action>
+			</item>
+			<item label="Editres">
+				<action name="Execute">
+					<execute>editres</execute>
+				</action>
+			</item>
+			<item label="GParted">
+				<action name="Execute">
+					<execute>gparted</execute>
+				</action>
+			</item>
+			<item label="Htop">
+				<action name="Execute">
+					<execute>kitty -e htop</execute>
+				</action>
+			</item>
+			<item label="Logout (obsession)">
+				<action name="Execute">
+					<execute>obsession-logout</execute>
+				</action>
+			</item>
+			<item label="Openbox Menu Editor">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
+			<item label="Pstree">
+				<action name="Execute">
+					<execute>kitty -e pstree.x11</execute>
+				</action>
+			</item>
+			<item label="Tint2">
+				<action name="Execute">
+					<execute>tint2</execute>
+				</action>
+			</item>
+			<item label="Top">
+				<action name="Execute">
+					<execute>kitty -e top</execute>
+				</action>
+			</item>
+			<item label="Xev">
+				<action name="Execute">
+					<execute>kitty -e xev</execute>
+				</action>
+			</item>
+			<item label="Xkill">
+				<action name="Execute">
+					<execute>xkill</execute>
+				</action>
+			</item>
+			<item label="Xrefresh">
+				<action name="Execute">
+					<execute>xrefresh</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="38" label="Utilities">
+			<item label="Bc">
+				<action name="Execute">
+					<execute>kitty -e bc</execute>
+				</action>
+			</item>
+			<item label="Catfish File Search">
+				<action name="Execute">
+					<execute>catfish</execute>
+				</action>
+			</item>
+			<item label="CMatrix">
+				<action name="Execute">
+					<execute>kitty -e cmatrix</execute>
+				</action>
+			</item>
+			<item label="compton">
+				<action name="Execute">
+					<execute>compton</execute>
+				</action>
+			</item>
+			<item label="Dc">
+				<action name="Execute">
+					<execute>kitty -e dc</execute>
+				</action>
+			</item>
+			<item label="File Manager">
+				<action name="Execute">
+					<execute>exo-open --launch FileManager</execute>
+				</action>
+			</item>
+			<item label="Screenshot">
+				<action name="Execute">
+					<execute>gnome-screenshot --interactive</execute>
+				</action>
+			</item>
+			<item label="Terminal Emulator">
+				<action name="Execute">
+					<execute>exo-open --launch TerminalEmulator</execute>
+				</action>
+			</item>
+			<item label="Xarchiver">
+				<action name="Execute">
+					<execute>xarchiver</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="234220" label="Directories">
+			<item label=".config">
+				<action name="Execute">
+					<execute>thunar ~/.config</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="40" label="OpenBox">
+			<menu id="client-list-menu"/>
+			<item label="Reconfigure">
+				<action name="Reconfigure"/>
+			</item>
+			<separator/>
+			<item label="Exit">
+				<action name="Exit"/>
+			</item>
+		</menu>
+	</menu>
+</openbox_menu>
